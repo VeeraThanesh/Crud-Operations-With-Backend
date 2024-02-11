@@ -1,0 +1,264 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.list-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.list-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 3px 0;
+}
+.list-top button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: #ff2f00;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  padding-right: 3px;
+}
+.plus {
+  font-size: 25px;
+}
+.list-box {
+  margin-top: 10px;
+}
+table thead {
+  background-color: rgb(255, 136, 0);
+}
+table tbody {
+  background-color: rgb(34, 33, 33);
+  color: white;
+}
+tbody tr td .list-data {
+  font-size: 13px;
+}
+
+thead tr th {
+  padding: 0px 10px;
+  border: none;
+}
+tbody tr td {
+  align-items: center;
+  text-align: center;
+  padding: 3px 10px;
+  border: none;
+  font-size: 14px;
+}
+
+tbody button {
+  background: transparent;
+  border: none;
+}
+.all-demo-btn {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.view-btn {
+  color: rgb(0, 255, 0);
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.edit-btn {
+  color: yellow;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.delete-btn {
+  color: red;
+  margin-left: 8px;
+  font-size: 15px;
+}
+.connect-backend {
+  color: black;
+  font-weight: 500;
+  padding: 10px;
+  background-color: red;
+}
+.all-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 700px) {
+  table {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 670px) {
+  .list-top button {
+    height: 25px;
+  }
+  .plus {
+    font-size: 20px;
+  }
+  .list-top h3 {
+    font-size: 18px;
+  }
+  table {
+    font-size: small;
+  }
+  table tbody tr td {
+    font-size: x-small;
+  }
+  tbody tr td .list-data {
+    font-size: x-small;
+  }
+  .view-btn,
+  .edit-btn,
+  .delete-btn {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 600px) {
+  .list-top button {
+    height: 23px;
+  }
+  .plus {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+  .list-top h3 {
+    font-size: 17px;
+  }
+  table {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 530px) {
+  table {
+    font-size: xx-small;
+  }
+  table tbody tr td {
+    font-size: xx-small;
+  }
+  tbody tr td .list-data {
+    font-size: xx-small;
+  }
+  .view-btn,
+  .edit-btn,
+  .delete-btn {
+    font-size: 10px;
+  }
+  .list-top button {
+    height: 21px;
+    font-size: 12px;
+    width: 85px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 1px;
+  }
+  .plus {
+    font-size: 17px;
+    margin-bottom: 1px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .list-top button {
+    height: 19px;
+    font-size: 11px;
+    width: 83px;
+    padding-top: 1px;
+  }
+  .plus {
+    font-size: 16px;
+    margin-bottom: 1px;
+  }
+  .list-top h3 {
+    font-size: 15px;
+  }
+  table {
+    font-size: 9px;
+  }
+  table tbody tr td {
+    font-size: 7px;
+  }
+  tbody tr td .list-data {
+    font-size: 7px;
+  }
+  .view-btn,
+  .edit-btn,
+  .delete-btn {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .list-top button {
+    height: 17px;
+    font-size: 11px;
+    width: 80px;
+  }
+  .plus {
+    font-size: 15px;
+    margin-bottom: 1px;
+  }
+  table {
+    font-size: 8px;
+  }
+  table tbody tr td {
+    font-size: 6px;
+  }
+  tbody tr td .list-data {
+    font-size: 6px;
+  }
+  .view-btn,
+  .edit-btn,
+  .delete-btn {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 420px) {
+  table {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 390px) {
+  table {
+    font-size: 6px;
+  }
+  table tbody tr td {
+    font-size: 5px;
+  }
+  tbody tr td .list-data {
+    font-size: 5px;
+  }
+  .view-btn,
+  .edit-btn,
+  .delete-btn {
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 350px) {
+  table {
+    font-size: 5px;
+  }
+  table tbody tr td {
+    font-size: 4px;
+  }
+  tbody tr td .list-data {
+    font-size: 4px;
+  }
+  .view-btn,
+  .edit-btn,
+  .delete-btn {
+    font-size: 5px;
+  }
+}

@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.view-container {
+  margin: 2% auto auto;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: -8px -9px 5px;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  border-radius: 5px;
+}
+.view-container h1 {
+  text-align: center;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 0 3px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
+}
+.view-container h1:hover {
+  text-shadow: 0 0 3px rgb(255, 255, 255), 0 0 5px rgb(0, 0, 0);
+}
+.view-content {
+  padding: 10px;
+  align-items: center;
+  margin-top: 10px;
+  box-shadow: 10px 10px 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.view-list-data h4 {
+  margin-left: 3px;
+}
+.view-container button {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  width: 50px;
+  height: 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  margin-left: 75%;
+}
+.view-container button:hover {
+  color: rgb(229, 255, 0);
+  box-shadow: 3px 3px 5px rgb(229, 255, 0);
+}
+
+@media screen and (max-width: 650px) {
+  .view-container button {
+    width: 40px;
+    height: 17px;
+    font-size: small;
+  }
+  .view-container h1 {
+    font-size: large;
+  }
+}
+@media screen and (max-width: 600px) {
+  .view-container button {
+    width: 35px;
+    height: 15px;
+    font-size: x-small;
+  }
+  .view-container h1 {
+    font-size: large;
+  }
+}
+@media screen and (max-width: 500px) {
+  .view-container button {
+    margin-left: 73%;
+  }
+  .view-container h1 {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .view-container button {
+    width: 30px;
+    height: 14px;
+    font-size: xx-small;
+    margin-left: 75%;
+  }
+  .view-container h1 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .view-container button {
+    margin-left: 73%;
+  }
+  .view-container h1 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .view-container button {
+    margin-left: 70%;
+    width: 30px;
+    height: 13px;
+    font-size: 8px;
+  }
+  .view-container h1 {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 380px) {
+  .view-container button {
+    margin-left: 68%;
+    width: 25px;
+    height: 10px;
+    font-size: 8px;
+  }
+}
